@@ -8,16 +8,8 @@ Created on Fri Oct 12 15:27:09 2012
 @author: vsheremet
 """
 import numpy as np
-#from pydap.client import open_url
 import matplotlib.pyplot as plt
-#from SeaHorseLib import *
-#from datetime import *
-#from scipy import interpolate
-#import sys
-#from SeaHorseTide import *
-#import shutil
-import matplotlib.mlab as mlab
-import matplotlib.cm as cm
+
 def sh_bindata(x, y, z, xbins, ybins):
     """
     Bin irregularly spaced data on a rectangular grid.
